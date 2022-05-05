@@ -18,41 +18,10 @@ header {
     grid-area: header;
 }
 
-main {
-    grid-area: main;
-}
-
-footer {
-    grid-area: footer;
-}
-
 .gridHeader {
     display: grid;
     grid-template-areas: "logo titulo navHeader";
     background-image: linear-gradient(to top, #1465bb, rgb(92, 184, 245), rgb(169, 215, 245), rgb(169, 215, 245), rgb(92, 184, 245), #1465bb);
-}
-
-.gridMain {
-    display: grid;
-    grid-template-areas: "imag texto video";
-    background-image: linear-gradient(to top, #1465bb, rgb(92, 184, 245), rgb(169, 215, 245), rgb(169, 215, 245), rgb(92, 184, 245), #1465bb);
-}
-
-.gridFooter {
-    display: grid;
-    grid-template-areas: "navFooter none redes";
-    background-image: linear-gradient(to top, #1465bb, rgb(92, 184, 245), rgb(169, 215, 245), rgb(169, 215, 245), rgb(92, 184, 245), #1465bb);
-}
-
-.gridMainProductos {
-    display: grid;
-    grid-template-areas: "proda prodb prodc";
-    background-image: linear-gradient(to top, #1465bb, rgb(92, 184, 245), rgb(169, 215, 245), rgb(169, 215, 245), rgb(92, 184, 245), #1465bb);
-}
-
-.gridMainEmpresa {
-    display: flex;
-    background-color: #1465bb;
 }
 
 /*Pagina Inicio*/
@@ -88,16 +57,16 @@ footer {
     }
 }
 
-.navHeader a:hover {
-    color: black;
-}
-
 .navHeader {
     grid-area: navHeader;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    list-style: none;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* list-style: none; */
+}
+
+/* .navHeader a:hover {
+    color: white;
 }
 
 .navHeader ul {
@@ -119,6 +88,27 @@ footer {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+} */
+
+main {
+    grid-area: main;
+}
+
+.gridMain {
+    display: grid;
+    grid-template-areas: "imag texto video";
+    background-image: linear-gradient(to top, #1465bb, rgb(92, 184, 245), rgb(169, 215, 245), rgb(169, 215, 245), rgb(92, 184, 245), #1465bb);
+}
+
+.gridMainEmpresa {
+    display: flex;
+    background-color: #1465bb;
+}
+
+.gridMainProductos {
+    display: grid;
+    grid-template-areas: "proda prodb prodc";
+    background-image: linear-gradient(to top, #1465bb, rgb(92, 184, 245), rgb(169, 215, 245), rgb(169, 215, 245), rgb(92, 184, 245), #1465bb);
 }
 
 .caja-imagen {
@@ -354,10 +344,18 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     color: black;
-
 }
 
-/*Footer*/
+footer {
+    grid-area: footer;
+}
+
+.gridFooter {
+    display: grid;
+    grid-template-areas: "navFooter none redes";
+    background-image: linear-gradient(to top, #1465bb, rgb(92, 184, 245), rgb(169, 215, 245), rgb(169, 215, 245), rgb(92, 184, 245), #1465bb);
+}
+
 .navFooter {
     grid-area: navFooter;
     display: flex;
@@ -400,7 +398,6 @@ footer {
     height: 50px;
 }
 
-/*Media querie*/
 @media screen and (max-width:768px) {
     .gridBody {
         display: grid;
