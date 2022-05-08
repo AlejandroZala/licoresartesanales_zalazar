@@ -2,6 +2,34 @@
   margin: 0;
   padding: 0; }
 
+footer {
+  grid-area: footer; }
+
+.gridFooter {
+  display: grid;
+  grid-template-areas: "navFooter none redes";
+  background-image: linear-gradient(to top, #1465bb, #5cb8f5, #a9d7f5, #a9d7f5, #5cb8f5, #1465bb); }
+
+.navFooter {
+  grid-area: navFooter;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 20px;
+  flex-direction: column;
+  justify-content: left;
+  align-content: space-between; }
+  .navFooter li a {
+    padding: 5px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-family: arial; }
+
+.redes {
+  grid-area: redes;
+  margin: auto; }
+
 .imgFace {
   margin: 20px;
   width: 50px;

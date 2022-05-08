@@ -1,6 +1,39 @@
 @import "../variables/variables";
 @import "sass2/mixins";
 
+footer {
+    grid-area: footer;
+}
+
+.gridFooter {
+    display: grid;
+    grid-template-areas: "navFooter none redes";
+    background-image: linear-gradient(to top, $azul, $celeste, $celesteClaro, $celesteClaro, $celeste, $azul)
+}
+
+.navFooter {
+    grid-area: navFooter;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: $margenFooter;
+    flex-direction: column;
+    justify-content: left;
+    align-content: space-between;
+         li a {
+            padding: 5px;
+            display: flex;
+            text-decoration: none;
+            color: $fontColor;
+            font-family: $fontArial;
+        }
+    }
+
+.redes {
+    grid-area: redes;
+    margin: auto;
+}
+
 .imgFace {
     @include margen-dimensiones-redes;
 }
