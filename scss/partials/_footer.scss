@@ -1,1 +1,14 @@
 @import "../variables/variables";
+@import "sass2/mixins";
+
+.imgFace {
+    @include margen-dimensiones-redes;
+}
+
+.imgInsta {
+    @include margen-dimensiones-redes;
+}
+
+.imgWhats {
+    @include margen-dimensiones-redes;
+}
