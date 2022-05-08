@@ -96,13 +96,9 @@ main {
 .caja-lista-principal {
     grid-area: texto;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .caja-lista-principal ul {
-    grid-area: texto;
     display: flex;
     list-style: none;
     flex-direction: column;
@@ -174,35 +170,16 @@ main {
     text-align: center;
     color: black;
     padding: 20px;
-    /* background-image: linear-gradient(to top, #1465bb, rgb(92, 184, 245), rgb(169, 215, 245), rgb(169, 215, 245), rgb(92, 184, 245), #1465bb); */
 }
 
+/*Pagina Como Comprar*/
 .caja-texto {
     margin: 20px;
     padding: 5px;
     font-size: larger;
-}
-
-/*Pagina Como Comprar*/
-.caja-texto-a {
-    background-color: rgb(169, 215, 245);
-    margin-top: 10px;
-    margin-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
-    font-size: large;
     color: black;
-    padding: 5px;
-}
-
-.caja-texto-b {
-    margin-top: 10px;
-    background-color: rgb(248, 230, 196);
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    font-size: large;
-    color: black;
-    padding: 5px;
 }
 
 /*Pagina Productos*/
@@ -259,6 +236,20 @@ main {
     font-size: 20px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.proda {
+    grid-area: proda;
+    display: flex;
+    margin: 30px 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-proda {
+    grid-area: prodb;
+    display: flex;
+    margin: 20px;
 }
 
 .texto-proda ul li {
