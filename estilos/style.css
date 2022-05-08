@@ -28,10 +28,11 @@ header {
 .titulo {
     grid-area: titulo;
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+
     padding: 10px;
     animation-name: titulo;
     animation-duration: 5s;
@@ -60,35 +61,7 @@ header {
 .navHeader {
     grid-area: navHeader;
     display: flex;
-    /* flex-wrap: wrap; */
-    /* justify-content: center; */
-    /* list-style: none; */
 }
-
-/* .navHeader a:hover {
-    color: white;
-}
-
-.navHeader ul {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-}
-
-.navHeader ul li {
-    align-items: row;
-    padding: 5px;
-    margin: 10px;
-}
-
-.navHeader ul li a {
-    text-decoration: none;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-} */
 
 main {
     grid-area: main;
@@ -97,24 +70,24 @@ main {
 .gridMain {
     display: grid;
     grid-template-areas: "imag texto video";
-    background-image: linear-gradient(to top, #1465bb, rgb(92, 184, 245), rgb(169, 215, 245), rgb(169, 215, 245), rgb(92, 184, 245), #1465bb);
+    background-color: rgb(169, 215, 245);
 }
 
 .gridMainEmpresa {
     display: flex;
-    background-color: #1465bb;
+    background-color: rgb(169, 215, 245);
 }
 
 .gridMainProductos {
     display: grid;
     grid-template-areas: "proda prodb prodc";
-    background-image: linear-gradient(to top, #1465bb, rgb(92, 184, 245), rgb(169, 215, 245), rgb(169, 215, 245), rgb(92, 184, 245), #1465bb);
+    background-color: rgb(169, 215, 245);
 }
 
 .caja-imagen {
     grid-area: imag;
-    display: flex;
     margin: 50px 50px;
+    display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -157,22 +130,19 @@ main {
 
 /*Pagina Contacto*/
 .caja-formulario {
-    margin: 20px 20px 20px 20px;
-    background-color: #bae0fc;
+    background-color: rgb(169, 215, 245);
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
 }
 
 .caja-nombre {
-    margin-top: 10px;
+    margin: 10px;
     text-align: left;
-    margin-left: 10px;
 }
 
 .caja-correo {
-    margin-top: 10px;
+    margin: 10px;
     text-align: left;
-    margin-left: 10px;
 }
 
 .caja-telefono {
@@ -199,13 +169,12 @@ main {
 
 /*Pagina Empresa*/
 .caja-marco {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    background-color: rgb(169, 215, 245);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: black;
     padding: 20px;
-    background-image: linear-gradient(to top, #1465bb, rgb(92, 184, 245), rgb(169, 215, 245), rgb(169, 215, 245), rgb(92, 184, 245), #1465bb);
+    /* background-image: linear-gradient(to top, #1465bb, rgb(92, 184, 245), rgb(169, 215, 245), rgb(169, 215, 245), rgb(92, 184, 245), #1465bb); */
 }
 
 .caja-texto {
@@ -216,6 +185,7 @@ main {
 
 /*Pagina Como Comprar*/
 .caja-texto-a {
+    background-color: rgb(169, 215, 245);
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;

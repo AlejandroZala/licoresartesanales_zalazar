@@ -14,17 +14,12 @@ header {
 
 .gridHeader {
   display: grid;
-  grid-template-areas: "logo titulo navHeader";
-  background-image: linear-gradient(to top, #1465bb, #5cb8f5, #a9d7f5, #a9d7f5, #5cb8f5, #1465bb); }
+  grid-template-areas: "logo titulo navHeader"; }
 
 /*Pagina Inicio*/
 .titulo {
   grid-area: titulo;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-family: arial;
-  text-align: center;
   padding: 10px;
   animation-name: titulo;
   animation-duration: 5s;
@@ -45,13 +40,42 @@ header {
   grid-area: navHeader;
   display: flex; }
 
+.gradienteHeaderFooter, .gridHeader, .gridFooter {
+  background-image: linear-gradient(to top, #1465bb, #5cb8f5, #a9d7f5, #a9d7f5, #5cb8f5, #1465bb); }
+
+.alinearCajaTextImagVid, .titulo {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center; }
+
+.alienarCajaListaPrincipal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.gradienteHeaderFooter, .gridHeader, .gridFooter {
+  background-image: linear-gradient(to top, #1465bb, #5cb8f5, #a9d7f5, #a9d7f5, #5cb8f5, #1465bb); }
+
+.alinearCajaTextImagVid, .titulo {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center; }
+
+.alienarCajaListaPrincipal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
 footer {
   grid-area: footer; }
 
 .gridFooter {
   display: grid;
-  grid-template-areas: "navFooter none redes";
-  background-image: linear-gradient(to top, #1465bb, #5cb8f5, #a9d7f5, #a9d7f5, #5cb8f5, #1465bb); }
+  grid-template-areas: "navFooter none redes"; }
 
 .navFooter {
   grid-area: navFooter;
@@ -87,3 +111,18 @@ footer {
   margin: 20px;
   width: 50px;
   height: 50px; }
+
+.gradienteHeaderFooter, .gridHeader, .gridFooter {
+  background-image: linear-gradient(to top, #1465bb, #5cb8f5, #a9d7f5, #a9d7f5, #5cb8f5, #1465bb); }
+
+.alinearCajaTextImagVid, .titulo {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center; }
+
+.alienarCajaListaPrincipal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }

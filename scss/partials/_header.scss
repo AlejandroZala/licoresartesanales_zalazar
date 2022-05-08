@@ -18,17 +18,14 @@ header {
 .gridHeader {
     display: grid;
     grid-template-areas: "logo titulo navHeader";
-    background-image: linear-gradient(to top, $azul, $celeste, $celesteClaro, $celesteClaro, $celeste, $azul);
+    @extend .gradienteHeaderFooter;
 }
 
 /*Pagina Inicio*/
 .titulo {
     grid-area: titulo;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend .alinearCajaTextImagVid;
     font-family: $fontArial;
-    text-align: center;
     padding: 10px;
     animation-name: titulo;
     animation-duration: 5s;
