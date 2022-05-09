@@ -1,20 +1,27 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 body {
-  background-color: #1465bb; }
+  background-color: #1465bb;
+}
 
 .gridBody {
   display: grid;
-  grid-template-areas: "header header header" "main main main" "footer footer footer"; }
+  grid-template-areas: "header header header"
+    "main main main"
+    "footer footer footer";
+}
 
 header {
-  grid-area: header; }
+  grid-area: header;
+}
 
 .gridHeader {
   display: grid;
-  grid-template-areas: "logo titulo navHeader"; }
+  grid-template-areas: "logo titulo navHeader";
+}
 
 /*Pagina Inicio*/
 .titulo {
@@ -24,122 +31,170 @@ header {
   animation-name: titulo;
   animation-duration: 5s;
   animation-iteration-count: infinite;
-  animation-delay: 3s; }
+  animation-delay: 3s;
+}
 
 @keyframes titulo {
   0% {
-    color: black; }
+    color: black;
+  }
+
   25% {
-    color: darkred; }
+    color: darkred;
+  }
+
   50% {
-    color: red; }
+    color: red;
+  }
+
   75% {
-    color: darkred; } }
+    color: darkred;
+  }
+}
 
 .navHeader {
   grid-area: navHeader;
-  display: flex; }
+  display: flex;
+}
 
-.gradienteHeaderFooter, .gridHeader, .gridFooter {
-  background-image: linear-gradient(to top, #1465bb, #5cb8f5, #a9d7f5, #a9d7f5, #5cb8f5, #1465bb); }
+.gradienteHeaderFooter,
+.gridHeader,
+.gridFooter {
+  background-image: linear-gradient(to top, #1465bb, #5cb8f5, #a9d7f5, #a9d7f5, #5cb8f5, #1465bb);
+}
 
-.alinearCajaTextImagVid, .titulo, .caja-imagen, .caja-video {
+.alinearCajaTextImagVid,
+.titulo,
+.caja-imagen,
+.caja-video {
   display: flex;
   text-align: center;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
-.alienarCajaListaPrincipal, .caja-lista-principal, .caja-lista-principal ul {
+.alienarCajaListaPrincipal,
+.caja-lista-principal,
+.caja-lista-principal ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
-.alinearTextoProductos, .texto-proda ul li, .texto-prodb ul li, .texto-prodc ul li {
+.alinearTextoProductos,
+.texto-proda ul li,
+.texto-prodb ul li,
+.texto-prodc ul li {
   list-style: none;
   text-align: center;
   margin: 8px;
   font-family: arial;
   font-size: medium;
-  color: black; }
+  color: black;
+}
 
-.alinearProduc, .proda, .prodb, .prodc {
+.alinearProduc,
+.proda,
+.prodb,
+.prodc {
   display: flex;
   margin: 30px 50px;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+}
 
-.alinearCajaText-a-b, .caja-texto-a, .caja-texto-b {
+.alinearCajaText-a-b,
+.caja-texto-a,
+.caja-texto-b {
   margin: 10px;
   padding: 5px;
   font-family: arial;
   font-size: large;
-  color: black; }
+  color: black;
+}
 
 main {
-  grid-area: main; }
+  grid-area: main;
+}
 
 .gridMain {
   display: grid;
   grid-template-areas: "imag texto video";
-  background-color: #a9d7f5; }
+  background-color: #a9d7f5;
+}
 
 .gridMainEmpresa {
   display: flex;
-  background-color: #a9d7f5; }
+  background-color: #a9d7f5;
+}
 
 .gridMainProductos {
   display: grid;
   grid-template-areas: "proda prodb prodc";
-  background-color: #a9d7f5; }
+  background-color: #a9d7f5;
+}
 
 .caja-imagen {
   grid-area: imag;
-  margin: 50px 50px; }
+  margin: 50px 50px;
+}
 
 .caja-video {
   grid-area: video;
-  margin: 50px 50px; }
+  margin: 50px 50px;
+}
 
 .caja-lista-principal {
-  grid-area: texto; }
-  .caja-lista-principal ul {
-    list-style: none; }
-    .caja-lista-principal ul li {
-      margin-top: 5px;
-      font-family: arial;
-      font-size: large;
-      color: black;
-      text-align: center;
-      margin-bottom: 5px; }
+  grid-area: texto;
+}
+
+.caja-lista-principal ul {
+  list-style: none;
+}
+
+.caja-lista-principal ul li {
+  margin-top: 5px;
+  font-family: arial;
+  font-size: large;
+  color: black;
+  text-align: center;
+  margin-bottom: 5px;
+}
 
 /*Pagina Contacto*/
 .caja-formulario {
   background-color: #a9d7f5;
   font-family: arial;
   font-size: large;
-  text-align: left; }
+  text-align: left;
+}
 
 .caja-nombre {
   margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
 
 .caja-correo {
   margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
 
 .caja-telefono {
   margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
 
 .caja-terminos-condiciones {
   margin-top: 20px;
-  margin-left: 10px; }
+  margin-left: 10px;
+}
 
 .caja-enviar-limpiar-formulario {
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 10px; }
+  margin-left: 10px;
+}
 
 /*Pagina Empresa*/
 .caja-marco {
@@ -147,16 +202,19 @@ main {
   font-family: arial;
   text-align: center;
   color: black;
-  padding: 20px; }
+  padding: 20px;
+}
 
 .caja-texto {
   margin: 20px;
   padding: 5px;
-  font-size: larger; }
+  font-size: larger;
+}
 
 /*Pagina Como Comprar*/
 .caja-texto-b {
-  text-align: left; }
+  text-align: left;
+}
 
 /*Pagina Productos*/
 .proda {
@@ -164,12 +222,14 @@ main {
   display: flex;
   margin: 30px 50px;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+}
 
 .texto-proda {
   grid-area: proda;
   display: flex;
-  margin: 20px; }
+  margin: 20px;
+}
 
 .cajaPrecio {
   width: 150px;
@@ -183,91 +243,130 @@ main {
   animation-name: precio;
   animation-duration: 5s;
   animation-iteration-count: infinite;
-  animation-delay: 3s; }
+  animation-delay: 3s;
+}
 
 @keyframes precio {
   0% {
-    color: darkred; }
+    color: darkred;
+  }
+
   25% {
     color: #d3330c;
-    transform: rotate(-25deg); }
+    transform: rotate(-25deg);
+  }
+
   50% {
     color: red;
-    transform: rotate(25deg); }
+    transform: rotate(25deg);
+  }
+
   75% {
-    color: darkred; } }
+    color: darkred;
+  }
+}
 
 .precio {
   font-size: 20px;
   font-weight: bold;
-  font-family: arial; }
+  font-family: arial;
+}
 
 .proda {
-  grid-area: proda; }
+  grid-area: proda;
+}
 
 .texto-proda {
   grid-area: prodb;
   display: flex;
-  margin: 20px; }
+  margin: 20px;
+}
 
 .prodb {
-  grid-area: prodb; }
+  grid-area: prodb;
+}
 
 .texto-prodb {
   grid-area: prodb;
   display: flex;
-  margin: 20px; }
+  margin: 20px;
+}
 
 .prodc {
-  grid-area: prodc; }
+  grid-area: prodc;
+}
 
 .texto-prodc {
   grid-area: prodc;
   display: flex;
-  margin: 20px; }
+  margin: 20px;
+}
 
-.gradienteHeaderFooter, .gridHeader, .gridFooter {
-  background-image: linear-gradient(to top, #1465bb, #5cb8f5, #a9d7f5, #a9d7f5, #5cb8f5, #1465bb); }
+.gradienteHeaderFooter,
+.gridHeader,
+.gridFooter {
+  background-image: linear-gradient(to top, #1465bb, #5cb8f5, #a9d7f5, #a9d7f5, #5cb8f5, #1465bb);
+}
 
-.alinearCajaTextImagVid, .titulo, .caja-imagen, .caja-video {
+.alinearCajaTextImagVid,
+.titulo,
+.caja-imagen,
+.caja-video {
   display: flex;
   text-align: center;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
-.alienarCajaListaPrincipal, .caja-lista-principal, .caja-lista-principal ul {
+.alienarCajaListaPrincipal,
+.caja-lista-principal,
+.caja-lista-principal ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
-.alinearTextoProductos, .texto-proda ul li, .texto-prodb ul li, .texto-prodc ul li {
+.alinearTextoProductos,
+.texto-proda ul li,
+.texto-prodb ul li,
+.texto-prodc ul li {
   list-style: none;
   text-align: center;
   margin: 8px;
   font-family: arial;
   font-size: medium;
-  color: black; }
+  color: black;
+}
 
-.alinearProduc, .proda, .prodb, .prodc {
+.alinearProduc,
+.proda,
+.prodb,
+.prodc {
   display: flex;
   margin: 30px 50px;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+}
 
-.alinearCajaText-a-b, .caja-texto-a, .caja-texto-b {
+.alinearCajaText-a-b,
+.caja-texto-a,
+.caja-texto-b {
   margin: 10px;
   padding: 5px;
   font-family: arial;
   font-size: large;
-  color: black; }
+  color: black;
+}
 
 footer {
-  grid-area: footer; }
+  grid-area: footer;
+}
 
 .gridFooter {
   display: grid;
-  grid-template-areas: "navFooter none redes"; }
+  grid-template-areas: "navFooter none redes";
+}
 
 .navFooter {
   grid-area: navFooter;
@@ -277,99 +376,164 @@ footer {
   margin: 20px;
   flex-direction: column;
   justify-content: left;
-  align-content: space-between; }
-  .navFooter li a {
-    padding: 5px;
-    display: flex;
-    text-decoration: none;
-    color: black;
-    font-family: arial; }
+  align-content: space-between;
+}
+
+.navFooter li a {
+  padding: 5px;
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-family: arial;
+}
 
 .redes {
   grid-area: redes;
-  margin: auto; }
+  margin: auto;
+}
 
 .imgFace {
   margin: 20px;
   width: 50px;
-  height: 50px; }
+  height: 50px;
+}
 
 .imgInsta {
   margin: 20px;
   width: 50px;
-  height: 50px; }
+  height: 50px;
+}
 
 .imgWhats {
   margin: 20px;
   width: 50px;
-  height: 50px; }
+  height: 50px;
+}
 
-.gradienteHeaderFooter, .gridHeader, .gridFooter {
-  background-image: linear-gradient(to top, #1465bb, #5cb8f5, #a9d7f5, #a9d7f5, #5cb8f5, #1465bb); }
+.gradienteHeaderFooter,
+.gridHeader,
+.gridFooter {
+  background-image: linear-gradient(to top, #1465bb, #5cb8f5, #a9d7f5, #a9d7f5, #5cb8f5, #1465bb);
+}
 
-.alinearCajaTextImagVid, .titulo, .caja-imagen, .caja-video {
+.alinearCajaTextImagVid,
+.titulo,
+.caja-imagen,
+.caja-video {
   display: flex;
   text-align: center;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
-.alienarCajaListaPrincipal, .caja-lista-principal, .caja-lista-principal ul {
+.alienarCajaListaPrincipal,
+.caja-lista-principal,
+.caja-lista-principal ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
-.alinearTextoProductos, .texto-proda ul li, .texto-prodb ul li, .texto-prodc ul li {
+.alinearTextoProductos,
+.texto-proda ul li,
+.texto-prodb ul li,
+.texto-prodc ul li {
   list-style: none;
   text-align: center;
   margin: 8px;
   font-family: arial;
   font-size: medium;
-  color: black; }
+  color: black;
+}
 
-.alinearProduc, .proda, .prodb, .prodc {
+.alinearProduc,
+.proda,
+.prodb,
+.prodc {
   display: flex;
   margin: 30px 50px;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+}
 
-.alinearCajaText-a-b, .caja-texto-a, .caja-texto-b {
+.alinearCajaText-a-b,
+.caja-texto-a,
+.caja-texto-b {
   margin: 10px;
   padding: 5px;
   font-family: arial;
   font-size: large;
-  color: black; }
+  color: black;
+}
 
 @media screen and (max-width: 768px) {
   .gridBody {
     display: grid;
-    grid-template-areas: "header header" "main main" "main main" "footer footer"; }
+    grid-template-areas: "header header"
+      "main main"
+      "main main"
+      "footer footer";
+  }
+
   .gridHeader {
     display: grid;
-    grid-template-areas: "titulo navHeader"; }
+    grid-template-areas: "titulo navHeader";
+  }
+
   .gridMain {
     display: grid;
-    grid-template-areas: "imag texto" "video none"; }
+    grid-template-areas: "imag texto"
+      "video none";
+  }
+
   .gridFooter {
     display: grid;
-    grid-template-areas: "navFooter redes"; }
+    grid-template-areas: "navFooter redes";
+  }
+
   .gridMainProductos {
     display: grid;
-    grid-template-areas: "proda prodb" "prodc none"; } }
+    grid-template-areas: "proda prodb"
+      "prodc none";
+  }
+}
 
 @media screen and (max-width: 480px) {
   .gridBody {
     display: grid;
-    grid-template-areas: "header" "header" "main" "main" "main" "footer" "footer"; }
+    grid-template-areas: "header"
+      "header"
+      "main"
+      "main"
+      "main"
+      "footer"
+      "footer";
+  }
+
   .gridHeader {
     display: grid;
-    grid-template-areas: "titulo" "navHeader"; }
+    grid-template-areas: "titulo"
+      "navHeader";
+  }
+
   .gridMain {
     display: grid;
-    grid-template-areas: "imag" "texto" "video"; }
+    grid-template-areas: "imag"
+      "texto"
+      "video";
+  }
+
   .gridFooter {
     display: grid;
-    grid-template-areas: "navFooter" "redes"; }
+    grid-template-areas: "navFooter"
+      "redes";
+  }
+
   .gridMainProductos {
     display: grid;
-    grid-template-areas: "proda" "prodb" "prodc"; } }
+    grid-template-areas: "proda"
+      "prodb"
+      "prodc";
+  }
+}
