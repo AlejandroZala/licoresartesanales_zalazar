@@ -37,6 +37,7 @@ main {
 
 .caja-lista-principal {
     grid-area: texto;
+    @extend .alienarCajaListaPrincipal;
     ul {
         list-style: none;
         @extend .alienarCajaListaPrincipal;
@@ -55,27 +56,22 @@ main {
     background-color: $celesteClaro;
     font-family: $fontArial;
     font-size: large;
+    text-align: left;
 }
 
 .caja-nombre {
-    margin: 10px;
-    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .caja-correo {
-    margin: 10px;
-    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .caja-telefono {
     margin-top: 10px;
-    text-align: left;
-    margin-left: 10px;
     margin-bottom: 10px;
-}
-
-.caja-consulta {
-    margin-left: 10px;
 }
 
 .caja-terminos-condiciones {
@@ -97,17 +93,21 @@ main {
     color: $negro;
     padding: 20px;
 }
-
-/*Pagina Como Comprar*/
 .caja-texto {
     margin: 20px;
     padding: 5px;
     font-size: larger;
-    font-family: $fontArial;
-    text-align: left;
-    color: $negro;
 }
 
+/*Pagina Como Comprar*/
+.caja-texto-a {
+    @extend .alinearCajaText-a-b;
+}
+
+.caja-texto-b {
+    text-align: left;
+    @extend .alinearCajaText-a-b;
+}
 /*Pagina Productos*/
 .proda {
     grid-area: proda;
