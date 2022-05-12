@@ -147,6 +147,7 @@ main {
 
 .caja-lista-principal {
   grid-area: texto;
+  margin-top: 20px;
 }
 
 .caja-lista-principal ul {
