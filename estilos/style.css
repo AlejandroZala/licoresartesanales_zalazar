@@ -116,11 +116,12 @@ main {
       margin-bottom: 5px; }
 
 /*Pagina Contacto*/
-.caja-formulario {
-  background-color: #a9d7f5;
-  font-family: arial;
-  font-size: large;
-  text-align: left; }
+
+.cajaFormulario {
+  padding: 5%;
+  background-color: #bae0fc;
+  
+}
 
 .caja-nombre {
   margin-top: 10px;
