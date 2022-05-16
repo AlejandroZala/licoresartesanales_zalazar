@@ -309,7 +309,7 @@ footer {
   font-size: large;
   color: black; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .gridBody {
     display: grid;
     grid-template-areas: "header header"
@@ -321,8 +321,8 @@ footer {
     grid-template-areas: "titulo navHeader"; }
   .gridMain {
     display: grid;
-    grid-template-areas: "imag texto"
- "video none"; }
+    grid-template-areas: " texto texto"
+ "imag video"; }
   .gridFooter {
     display: grid;
     grid-template-areas: "navFooter redes"; }
