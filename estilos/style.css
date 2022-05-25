@@ -7,9 +7,7 @@ body {
 
 .gridBody {
   display: grid;
-  grid-template-areas: "header header header"
- "main main main"
- "footer footer footer"; }
+  grid-template-areas: "header header header" "main main main" "footer footer footer"; }
 
 header {
   grid-area: header; }
@@ -118,8 +116,7 @@ main {
 /*Pagina Contacto*/
 .cajaFormulario {
   padding: 5%;
-  background-color: #bae0fc;
-}
+  background-color: #bae0fc; }
 
 /*Pagina Empresa*/
 .caja-marco {
@@ -323,50 +320,33 @@ footer {
 @media screen and (max-width: 768px) {
   .gridBody {
     display: grid;
-    grid-template-areas: "header header"
- "main main"
- "main main"
- "footer footer"; }
+    grid-template-areas: "header header" "main main" "main main" "footer footer"; }
   .gridHeader {
     display: grid;
     grid-template-areas: "titulo navHeader"; }
   .gridMain {
     display: grid;
-    grid-template-areas: "imag texto"
- "video none"; }
+    grid-template-areas: "imag texto" "video none"; }
   .gridFooter {
     display: grid;
     grid-template-areas: "navFooter redes"; }
   .gridMainProductos {
     display: grid;
-    grid-template-areas: "proda prodb"
- "prodc none"; } }
+    grid-template-areas: "proda prodb" "prodc none"; } }
 
 @media screen and (max-width: 480px) {
   .gridBody {
     display: grid;
-    grid-template-areas: "header"
- "header"
- "main"
- "main"
- "main"
- "footer"
- "footer"; }
+    grid-template-areas: "header" "header" "main" "main" "main" "footer" "footer"; }
   .gridHeader {
     display: grid;
-    grid-template-areas: "titulo"
- "navHeader"; }
+    grid-template-areas: "titulo" "navHeader"; }
   .gridMain {
     display: grid;
-    grid-template-areas: "imag"
- "texto"
- "video"; }
+    grid-template-areas: "imag" "texto" "video"; }
   .gridFooter {
     display: grid;
-    grid-template-areas: "navFooter"
- "redes"; }
+    grid-template-areas: "navFooter" "redes"; }
   .gridMainProductos {
     display: grid;
-    grid-template-areas: "proda"
- "prodb"
- "prodc"; } }
+    grid-template-areas: "proda" "prodb" "prodc"; } }

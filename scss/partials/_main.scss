@@ -52,38 +52,10 @@ main {
     }
 }
 /*Pagina Contacto*/
-.caja-formulario {
-    background-color: $celesteClaro;
-    font-family: $fontArial;
-    font-size: large;
-    text-align: left;
-}
-
-.caja-nombre {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.caja-correo {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.caja-telefono {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.caja-terminos-condiciones {
-    margin-top: 20px;
-    margin-left: 10px;
-}
-
-.caja-enviar-limpiar-formulario {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-}
+.cajaFormulario {
+    padding: 5%;
+    background-color: #bae0fc;
+  }
 
 /*Pagina Empresa*/
 .caja-marco {
