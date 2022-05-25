@@ -37,6 +37,7 @@ main {
 
 .caja-lista-principal {
     grid-area: texto;
+    margin: 30px 30px;
     @extend .alienarCajaListaPrincipal;
     ul {
         list-style: none;
@@ -81,20 +82,6 @@ main {
     @extend .alinearCajaText-a-b;
 }
 /*Pagina Productos*/
-.proda {
-    grid-area: proda;
-    display: flex;
-    margin: 30px 50px;
-    flex-direction: column;
-    align-items: center;
-}
-
-.texto-proda {
-    grid-area: proda;
-    display: flex;
-    margin: 20px;
-}
-
 .cajaPrecio {
     width: 150px;
     height: 35px;
@@ -142,7 +129,7 @@ main {
 }
 
 .texto-proda {
-    grid-area: prodb;
+    grid-area: proda;
     display: flex;
     margin: 20px;
 }

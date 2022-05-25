@@ -102,7 +102,8 @@ main {
   margin: 50px 50px; }
 
 .caja-lista-principal {
-  grid-area: texto; }
+  grid-area: texto;
+  margin: 30px 30px; }
   .caja-lista-principal ul {
     list-style: none; }
     .caja-lista-principal ul li {
@@ -136,18 +137,6 @@ main {
   text-align: left; }
 
 /*Pagina Productos*/
-.proda {
-  grid-area: proda;
-  display: flex;
-  margin: 30px 50px;
-  flex-direction: column;
-  align-items: center; }
-
-.texto-proda {
-  grid-area: proda;
-  display: flex;
-  margin: 20px; }
-
 .cajaPrecio {
   width: 150px;
   height: 35px;
@@ -183,7 +172,7 @@ main {
   grid-area: proda; }
 
 .texto-proda {
-  grid-area: prodb;
+  grid-area: proda;
   display: flex;
   margin: 20px; }
 
