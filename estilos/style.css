@@ -41,7 +41,7 @@ header {
   display: flex; }
 
 .gradienteHeaderFooter, .gridHeader, .gridFooter {
-  background-image: linear-gradient(to top, #1465bb, #5cb8f5, #a9d7f5, #a9d7f5, #5cb8f5, #1465bb); }
+  background-image: linear-gradient(to top, #1465bb, #5cb8f5, #d5f1fc, #d5f1fc, #5cb8f5, #1465bb); }
 
 .alinearCajaTextImagVid, .titulo, .caja-imagen, .caja-video {
   display: flex;
@@ -82,16 +82,16 @@ main {
 .gridMain {
   display: grid;
   grid-template-areas: "imag texto video";
-  background-color: #a9d7f5; }
+  background-color: #d5f1fc; }
 
 .gridMainEmpresa {
   display: flex;
-  background-color: #a9d7f5; }
+  background-color: #d5f1fc; }
 
 .gridMainProductos {
   display: grid;
   grid-template-areas: "proda prodb prodc";
-  background-color: #a9d7f5; }
+  background-color: #d5f1fc; }
 
 .caja-imagen {
   grid-area: imag;
@@ -117,11 +117,11 @@ main {
 /*Pagina Contacto*/
 .cajaFormulario {
   padding: 5%;
-  background-color: #bae0fc; }
+  background-color: #d5f1fc; }
 
 /*Pagina Empresa*/
 .caja-marco {
-  background-color: #a9d7f5;
+  background-color: #d5f1fc;
   font-family: arial;
   text-align: center;
   color: black;
@@ -193,7 +193,7 @@ main {
   margin: 20px; }
 
 .gradienteHeaderFooter, .gridHeader, .gridFooter {
-  background-image: linear-gradient(to top, #1465bb, #5cb8f5, #a9d7f5, #a9d7f5, #5cb8f5, #1465bb); }
+  background-image: linear-gradient(to top, #1465bb, #5cb8f5, #d5f1fc, #d5f1fc, #5cb8f5, #1465bb); }
 
 .alinearCajaTextImagVid, .titulo, .caja-imagen, .caja-video {
   display: flex;
@@ -271,7 +271,7 @@ footer {
   height: 50px; }
 
 .gradienteHeaderFooter, .gridHeader, .gridFooter {
-  background-image: linear-gradient(to top, #1465bb, #5cb8f5, #a9d7f5, #a9d7f5, #5cb8f5, #1465bb); }
+  background-image: linear-gradient(to top, #1465bb, #5cb8f5, #d5f1fc, #d5f1fc, #5cb8f5, #1465bb); }
 
 .alinearCajaTextImagVid, .titulo, .caja-imagen, .caja-video {
   display: flex;
