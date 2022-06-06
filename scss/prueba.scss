@@ -84,3 +84,41 @@
             "prodc";
     }
 }
+@media screen and (max-width:320px) {
+    .gridBody {
+        display: grid;
+        grid-template-areas: "header"
+            "header"
+            "main"
+            "main"
+            "main"
+            "footer"
+            "footer";
+    }
+
+    .gridHeader {
+        display: grid;
+        grid-template-areas: "titulo"
+            "navHeader";
+    }
+
+    .gridMain {
+        display: grid;
+        grid-template-areas: "imag"
+            "texto"
+            "video";
+    }
+
+    .gridFooter {
+        display: grid;
+        grid-template-areas: "navFooter"
+            "redes";
+    }
+
+    .gridMainProductos {
+        display: grid;
+        grid-template-areas: "proda"
+            "prodb"
+            "prodc";
+    }
+}
