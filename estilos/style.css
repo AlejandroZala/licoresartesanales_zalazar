@@ -7,7 +7,10 @@ body {
 
 .gridBody {
   display: grid;
-  grid-template-areas: "header header header" "main main main" "footer footer footer"; }
+  grid-template-areas: "header header header"
+ "main main"
+ "main main"
+ "footer footer footer"; }
 
 header {
   grid-area: header; }
@@ -81,7 +84,8 @@ main {
 
 .gridMain {
   display: grid;
-  grid-template-areas: "texto texto" "imag video";
+  grid-template-areas: "texto texto"
+ "imag video";
   background-color: #d5f1fc; }
 
 .gridMainEmpresa {
@@ -311,33 +315,50 @@ footer {
 @media screen and (max-width: 768px) {
   .gridBody {
     display: grid;
-    grid-template-areas: "header header" "main main" "main main" "footer footer"; }
+    grid-template-areas: "header header"
+ "main main"
+ "main main"
+ "footer footer"; }
   .gridHeader {
     display: grid;
     grid-template-areas: "titulo navHeader"; }
   .gridMain {
     display: grid;
-    grid-template-areas: "texto texto" "imag video"; }
+    grid-template-areas: "texto texto"
+ "imag video"; }
   .gridFooter {
     display: grid;
     grid-template-areas: "navFooter redes"; }
   .gridMainProductos {
     display: grid;
-    grid-template-areas: "proda prodb" "prodc none"; } }
+    grid-template-areas: "proda prodb"
+ "prodc none"; } }
 
 @media screen and (max-width: 635px) {
   .gridBody {
     display: grid;
-    grid-template-areas: "header" "header" "main" "main" "main" "footer" "footer"; }
+    grid-template-areas: "header"
+ "header"
+ "main"
+ "main"
+ "main"
+ "footer"
+ "footer"; }
   .gridHeader {
     display: grid;
-    grid-template-areas: "titulo" "navHeader"; }
+    grid-template-areas: "titulo"
+ "navHeader"; }
   .gridMain {
     display: grid;
-    grid-template-areas: "imag" "texto" "video"; }
+    grid-template-areas: "imag"
+ "texto"
+ "video"; }
   .gridFooter {
     display: grid;
-    grid-template-areas: "navFooter" "redes"; }
+    grid-template-areas: "navFooter"
+ "redes"; }
   .gridMainProductos {
     display: grid;
-    grid-template-areas: "proda" "prodb" "prodc"; } }
+    grid-template-areas: "proda"
+ "prodb"
+ "prodc"; } }
