@@ -8,8 +8,7 @@ body {
 .gridBody {
   display: grid;
   grid-template-areas: "header header header"
- "main main"
- "main main"
+ "main main main"
  "footer footer footer"; }
 
 header {
@@ -42,42 +41,6 @@ header {
 .navHeader {
   grid-area: navHeader;
   display: flex; }
-
-.gradienteHeaderFooter, .gridHeader, .gridFooter {
-  background-image: linear-gradient(to top, #1465bb, #5cb8f5, #d5f1fc, #d5f1fc, #5cb8f5, #1465bb); }
-
-.alinearCajaTextImagVid, .titulo, .caja-imagen, .caja-video {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center; }
-
-.alienarCajaListaPrincipal, .caja-lista-principal, .caja-lista-principal ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; }
-
-.alinearTextoProductos, .texto-proda ul li, .texto-prodb ul li, .texto-prodc ul li {
-  list-style: none;
-  text-align: center;
-  margin: 8px;
-  font-family: arial;
-  font-size: medium;
-  color: black; }
-
-.alinearProduc, .proda, .prodb, .prodc {
-  display: flex;
-  margin: 30px 50px;
-  flex-direction: column;
-  align-items: center; }
-
-.alinearCajaText-a-b, .caja-texto-a, .caja-texto-b {
-  margin: 10px;
-  padding: 5px;
-  font-family: arial;
-  font-size: large;
-  color: black; }
 
 main {
   grid-area: main; }
@@ -197,42 +160,6 @@ main {
   grid-area: prodc;
   display: flex;
   margin: 20px; }
-
-.gradienteHeaderFooter, .gridHeader, .gridFooter {
-  background-image: linear-gradient(to top, #1465bb, #5cb8f5, #d5f1fc, #d5f1fc, #5cb8f5, #1465bb); }
-
-.alinearCajaTextImagVid, .titulo, .caja-imagen, .caja-video {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center; }
-
-.alienarCajaListaPrincipal, .caja-lista-principal, .caja-lista-principal ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; }
-
-.alinearTextoProductos, .texto-proda ul li, .texto-prodb ul li, .texto-prodc ul li {
-  list-style: none;
-  text-align: center;
-  margin: 8px;
-  font-family: arial;
-  font-size: medium;
-  color: black; }
-
-.alinearProduc, .proda, .prodb, .prodc {
-  display: flex;
-  margin: 30px 50px;
-  flex-direction: column;
-  align-items: center; }
-
-.alinearCajaText-a-b, .caja-texto-a, .caja-texto-b {
-  margin: 10px;
-  padding: 5px;
-  font-family: arial;
-  font-size: large;
-  color: black; }
 
 footer {
   grid-area: footer; }
