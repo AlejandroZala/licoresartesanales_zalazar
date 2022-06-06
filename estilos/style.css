@@ -325,7 +325,7 @@ footer {
     display: grid;
     grid-template-areas: "proda prodb" "prodc none"; } }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 635px) {
   .gridBody {
     display: grid;
     grid-template-areas: "header" "header" "main" "main" "main" "footer" "footer"; }
