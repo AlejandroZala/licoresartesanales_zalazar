@@ -14,39 +14,39 @@
 @import "sass2/operaciones";
 
 
+// @media screen and (max-width:768px) {
+//     .gridBody {
+//         display: grid;
+//         grid-template-areas: "header header"
+//             "main main"
+//             "main main"
+//             "footer footer";
+//     }
+
+//     .gridHeader {
+//         display: grid;
+//         grid-template-areas: "titulo navHeader";
+//     }
+
+//     .gridMain {
+//         display: grid;
+//         grid-template-areas: "texto texto"
+//             "imag video";
+//     }
+
+//     .gridFooter {
+//         display: grid;
+//         grid-template-areas: "navFooter redes";
+//     }
+
+//     .gridMainProductos {
+//         display: grid;
+//         grid-template-areas: "proda prodb"
+//             "prodc none";
+//     }
+// }
+
 @media screen and (max-width:768px) {
-    .gridBody {
-        display: grid;
-        grid-template-areas: "header header"
-            "main main"
-            "main main"
-            "footer footer";
-    }
-
-    .gridHeader {
-        display: grid;
-        grid-template-areas: "titulo navHeader";
-    }
-
-    .gridMain {
-        display: grid;
-        grid-template-areas: "imag texto"
-            "video none";
-    }
-
-    .gridFooter {
-        display: grid;
-        grid-template-areas: "navFooter redes";
-    }
-
-    .gridMainProductos {
-        display: grid;
-        grid-template-areas: "proda prodb"
-            "prodc none";
-    }
-}
-
-@media screen and (max-width:480px) {
     .gridBody {
         display: grid;
         grid-template-areas: "header"

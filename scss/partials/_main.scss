@@ -8,7 +8,8 @@ main {
 
 .gridMain {
     display: grid;
-    grid-template-areas: "imag texto video";
+    grid-template-areas: "texto texto"
+                        "imag video";
     background-color: $celesteClaro;
 }
 
@@ -25,13 +26,15 @@ main {
 
 .caja-imagen {
     grid-area: imag;
-    margin: 50px 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     @extend .alinearCajaTextImagVid;
 }
 
 .caja-video {
     grid-area: video;
-    margin: 50px 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     @extend .alinearCajaTextImagVid;
 }
 
